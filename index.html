@@ -12,38 +12,59 @@
 	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
 	<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
 
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection">
+
 	<script type="text/javascript" src="js/lib/jquery-171.js"></script>
 
 </head>
 <body>
-	<div class="container showgrid">
+
+    <!-- background top effect -->
+    <div class="bg-top"></div>
+
+    <!-- 960 container and background remove effect -->
+    <div class="container bg-remove">
 
         <!-- headband -->
-	    <div class="span-24 last">
-            <div class="span-4">
-                <p>logo here</p>
-            </div>
-            <div class="span-20 last">
-                <p>animation here</p>
-            </div>
-	    </div>
+        <div id="header">
+            <h2>logo and animation here</h2>
+        </div>
 
-        <!-- page -->
-        <div class="span-18">
-            <p>page</p>
-	    </div>
+        <hr>
 
-        <!-- chat and rss -->
-        <div class="span-6 last">
-            <p>chat</p>
-            <p>rss</p>
-	    </div>
+        <!-- page, chat and rss -->
+        <div id="main">
+
+            <!-- page -->
+            <div id="content" class="span-16 push-1">
+                <h3>page</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.</p>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.</p>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.</p>
+            </div>
+
+            <!-- chat and rss -->
+            <div class="span-6 push-2 last">
+                <div id="chat">
+                    <h3>chat</h3>
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.</p>
+                </div>
+                <div id="rss">
+                    <h3>rss</h3>
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
 
         <!-- footer -->
-        <div class="span-24 last">
-            <p>footer</p>
-	    </div>
+        <div id="footer">
+            <p class="bottom">©2011 Benoît ADAM - Loic VAUVRECY</p>
+        </div>
 
     </div>
+
 </body>
 </html>
